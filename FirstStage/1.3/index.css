@@ -1,0 +1,64 @@
+body,html{
+    margin:0;
+    padding:0;
+}
+body{
+    padding:20px;
+}
+.clearfix{
+    overflow:auto;
+}
+div{
+    padding:20px;
+    border: 1px solid #999;
+}
+.theBox{
+    background-color: #eee;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.TeamName{
+    float:left;
+    background-color: #fff;
+    width:200px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          overflow: hidden;
+}
+.logo{
+    height:80px;
+    width:80px;
+    margin-right:3px;
+}
+.avatar{
+    height:80px;
+    width:80px;
+    margin-top: 20px;
+}
+.Name{
+    font-size: 15px;
+    font-weight: 800;
+    margin-right:-20px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.TeamMember{
+    padding-top:0;
+    width:120px;
+    float:right;
+    background-color: #fff;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.TeamMember li{
+    height:80px;
+    width:80px;
+}
+.Center{
+    margin:0 140px 0 220px;
+    background-color: #fff;
+}
