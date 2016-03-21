@@ -1,0 +1,92 @@
+body,html,img,a,p,ul,li,div{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.Tabs{
+    min-width: 900px;
+    height:56px;
+    padding-right:65px;
+}
+
+.Tabs-left{
+    float:left;
+    margin-left:59px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.Tabs-left img{
+    margin-right:10px;
+}
+
+.Tabs-left p {
+    display: inline-block;
+    font-size: 21px;
+    font-family: "SimHei";
+    color: rgb(57, 58, 58);
+    line-height: 1.286;
+}
+
+.Tabs-right{
+    float:right;
+    height:56px;
+    display: flex;
+    align-items: center;
+}
+
+.Tabs-right ul{
+    vertical-align:middle;
+    display: inline-block;
+    height:56px;
+}
+
+.Tabs-right ul li{
+    height:56px;
+    display: inline-block;
+    padding:0 20px;
+    box-sizing: border-box;
+    margin-right:10px;
+}
+.Tabs-right a:link {color:#787B83;}		
+.Tabs-right a:visited {color:#787B83;}	
+.Tabs-right a:hover {color:rgb(231, 79, 77);}
+.Tabs-right a{
+    line-height: 56px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+
+.Switch{
+    border-bottom: 3px solid rgb(231, 79, 77);
+}
+
+.Login{
+    vertical-align:middle;
+    display: inline-block;
+}
+
+.Login img{
+    margin-left:20px;
+    vertical-align:middle;
+}
+
+.Tabs-right .Login a{
+    vertical-align:middle;
+    color:rgb(231, 79, 77);
+}
+
+.Main{
+    min-width: 1280px;
+    height:690px;
+    background: url("static/main.png") repeat;
+    background-size:100%;
+}
+
